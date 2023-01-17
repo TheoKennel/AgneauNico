@@ -14,9 +14,9 @@ body {
 }
 html {
   scroll-behavior: smooth;
-  font-size: 62.5%;
+  font-size: 82.5%;
 }
-
+/* NAV BAR CSS */
 header {
   display: flex;
   align-items: center;
@@ -80,7 +80,7 @@ header {
 .menu li a::after {
   position: absolute;
   bottom: -5px;
-  left: 0;
+  right: 0;
   content: "";
   width: 0;
   height: 2px;
@@ -102,4 +102,21 @@ header {
   text-align: center;
   color: darkgreen;
   ;
+}
+/* Accueil page CSS */
+#Accueil {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: calc(100vh - 50px);
+  justify-content: space-between;
+}
+#Accueil .left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
