@@ -22,7 +22,7 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 75px;
+  height: 85px;
   padding: 0 10%;
   position: fixed;
   top: 0;
@@ -35,6 +35,14 @@ header {
 .menu {
   display: flex;
 }
+
+#LogoCorbacks {
+  position: absolute;
+  right: 90%;
+  margin: 0;
+  top: -4.5px;
+}
+
 .logo {
   color: darkgreen;
   font-weight: 500;
@@ -92,7 +100,6 @@ header {
   top: -3px;
   font-size: 22px;
   text-align: center;
-  color: green;
+  color: darkgreen;
   ;
 }
-
