@@ -121,3 +121,12 @@ header {
   flex-direction: column;
   justify-content: center;
 }
+#Accueil .left h1 {
+  font-size: 30px;
+  color: darkgreen;
+}
+#Accueil .left p {
+  font-size: 12px;
+  color: #999;
+}
+#Accueil
