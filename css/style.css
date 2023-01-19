@@ -202,3 +202,10 @@ header {
   color: #fff;
   border-radius: 6px;
 }
+/* Scrollbar CSS */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkgreen;
+}
