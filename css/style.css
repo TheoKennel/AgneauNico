@@ -167,15 +167,16 @@ header {
 }
 .produits {
   display: flex;
-  flex-wrap: wrap;
+  float-wrap: wrap;
   justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .produits .prod {
-  height: 280px;
-  width: 30%;
+  width: 200px;
   background-color: #ffffff;
   padding: 15px;
-  display: flex;
+  display: inline;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -186,7 +187,7 @@ header {
 }
 .produits .prod img {
   width: 180px;
-  height: 150px;
+  height: 170px;
   margin-bottom: 15px;
 }
 .produits .prod p{
@@ -195,7 +196,7 @@ header {
 }
 .produits .prod a {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: 0;
   background-color: darkgreen;
   padding: 5px 60px;
