@@ -174,5 +174,31 @@ header {
   height: 280px;
   width: 30%;
   background-color: #ffffff;
-
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 6px;
+  margin-bottom: 35px;
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.produits .prod img {
+  width: 180px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+.produits .prod p{
+  text-align: center;
+  font-size: 18px;
+}
+.produits .prod a {
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: 0;
+  background-color: darkgreen;
+  padding: 5px 60px;
+  color: #fff;
+  border-radius: 6px;
 }
