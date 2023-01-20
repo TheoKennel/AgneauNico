@@ -160,6 +160,7 @@ header {
   box-shadow: 0 0 10px rgba(0, 0,0, 0.2);
 }
 #Tarifs .viande {
+  display: flex;
   font-weight: normal;
   font-size: 30px;
   color: rgba(46,46,46,0.8);
@@ -167,16 +168,19 @@ header {
 }
 .produits {
   display: flex;
-  float-wrap: wrap;
+  flex-wrap: wrap;
+  width: 80%;
   justify-content: space-around;
-  margin-left: 10%;
-  margin-right: 10%;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
 }
 .produits .prod {
-  width: 200px;
+  height: 280px;
+  width: 30%;
   background-color: #ffffff;
-  padding: 15px;
-  display: inline;
+  padding: 25px;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -196,13 +200,14 @@ header {
 }
 .produits .prod a {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: 0;
   background-color: darkgreen;
   padding: 5px 60px;
   color: #fff;
   border-radius: 6px;
 }
+
 /* Scrollbar CSS */
 ::-webkit-scrollbar {
   width: 8px;
