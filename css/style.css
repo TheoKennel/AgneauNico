@@ -215,3 +215,13 @@ header {
 ::-webkit-scrollbar-thumb {
   background-color: darkgreen;
 }
+
+/* Les Agneaux CSS */
+#Agneau {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 50px);
+  flex-direction: column;
+  padding: 50px 10%;
+  width: 100%;
+}
