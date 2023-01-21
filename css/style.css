@@ -242,3 +242,22 @@ header {
 .agneau .left img {
   width: 90%;
 }
+.agneau .right {
+  width: 60%;
+}
+.agneau .right h3 {
+  font-size: 35px;
+  color: #273e60;
+  margin: 10px 0;
+}
+.agneau .right p {
+  font-size: 14px;
+  color: #999
+}
+.agneau .right button {
+  margin: 20px;
+  padding: 5px 60px;
+  background-color: darkgreen;
+  border: 0;
+}
+.agneau .right button a{}
