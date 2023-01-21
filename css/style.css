@@ -225,3 +225,20 @@ header {
   padding: 50px 10%;
   width: 100%;
 }
+.agneau {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 70vh;
+}
+.agneau .left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.agneau .left img {
+  width: 90%;
+}
