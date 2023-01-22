@@ -260,4 +260,8 @@ header {
   background-color: darkgreen;
   border: 0;
 }
-.agneau .right button a{}
+.agneau .right button a{
+  color: #fff;
+  text-decoration: 0;
+  font-weight: bolder;
+}
