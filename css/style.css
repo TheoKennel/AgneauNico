@@ -265,3 +265,22 @@ header {
   text-decoration: 0;
   font-weight: bolder;
 }
+
+/* Section Avis client CSS */
+
+#avis_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 50px);
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+.commentaire {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
