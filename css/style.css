@@ -340,7 +340,13 @@ header {
   padding: 5px;
 }
 
-#contact form input:focus {
+#contact form #message {
+  height: 100px;
+  border: 1px solid transparent;
+  padding: 15px 0px 0px 10px;
+}
+
+#contact form input:focus #message {
   outline: 1px solid darkgreen;
 }
 
