@@ -268,7 +268,7 @@ header {
 
 /* Section Avis client CSS */
 
-#avis_section {
+.avis_section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -283,4 +283,31 @@ header {
   width: 100%;
   flex-wrap: wrap;
 }
-.commentaire
+.commentaire .commentaires div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.commentaire .commentaires div img {
+  width: 45px;
+  height: 45px;
+  border: 2px solid darkgreen;
+  border-radius: 50%;
+}
+.commentaire .commentaires {
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding:20px;
+}
+.commentaire .commentaires div h4 {
+  margin-left: 15px;
+  font-size: 14px;
+  color: darkgreen;
+}
+.commentaire .commentaires p {
+  font-size: 13px;
+  color: #999;
+}
+
+
