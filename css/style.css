@@ -272,9 +272,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 50px);
   flex-direction: column;
-  padding: 0 10%;
+  padding: 0 15%;
 }
 
 .commentaire {
@@ -313,11 +312,11 @@ header {
 /* Section Contact */
 
 #contact {
-  margin-top: 50px;
+  margin-top: 120px;
   display: flex;
+  margin-right: 70%;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  justify-content: left;
   flex-direction: column;
 }
 
@@ -327,7 +326,7 @@ header {
   padding: 25px;
   border: 6px;
   flex-direction: column;
-  width: 350px;
+  width: 450px;
 }
 #contact form label {
   margin-bottom: 8px;
