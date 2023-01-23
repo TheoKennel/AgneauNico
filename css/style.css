@@ -350,12 +350,14 @@ header {
   outline: 1px solid darkgreen;
 }
 
-#contact form input[type="submit"]{
+#contact form input[type="submit"] {
   margin-top: 15px;
   color: #fff;
   background-color: darkgreen;
   border: 1px solid darkgreen;
 }
+
+/* Footer Section */
 
 
 
