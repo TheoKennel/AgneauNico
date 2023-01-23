@@ -25,20 +25,25 @@
   <h4 class="mini_title">Contact</h4>
   <h2 class="title">Remplisser ce formulaire pour effectuer une réservation</h2>
   <form action="">
-    <label>Votre Nom</label>
-    <input type="text">
-    <label>Votre Email</label>
-    <input type="email">
-    <label>Votre Numéro</label>
-    <input type="text">
-    <label>Reservation</label>
-    <input type="text">
+    <label>Nom</label>
+    <input type="text" name="Nom" placeholder="Nicolas" required="">
+    <label>Email</label>
+    <input type="email" name="email" placeholder="monadresseemail@email.com" required="">
+    <label>Numéro de téléphone</label>
+    <input type="text" name="numéro" placeholder="0606060606" required="">
+    <label for="Sujet">Quel est le sujet de votre demande</label>
+    <select id="Sujet" name="Sujet" required="">
+      <option value="info">Information réservation</option>
+      <option value="question">Collect la commande</option>
+      <option value="autre">Autre</option>
+    </select>
+    <label>Votre demande </label>
+    <textarea id="message" name="message" placeholder="Bonjour, je souhaite vous contactez car ..." required=""></textarea>
     <input type="submit" value="Faire la Réservation">
-
   </form>
-
-
 </section>
+
+
 <!-- Section Avis Client -->
 
 <section class="avis_section">
