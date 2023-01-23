@@ -310,4 +310,48 @@ header {
   color: #999;
 }
 
+/* Section Contact */
+
+#contact {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#contact form {
+  display: flex;
+  background-color: rgba(0,0,0,0.05);
+  padding: 25px;
+  border: 6px;
+  flex-direction: column;
+  width: 350px;
+}
+#contact form label {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+#contact form input {
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 5px;
+}
+
+#contact form input:focus {
+  outline: 1px solid darkgreen;
+}
+
+#contact form input[type="submit"]{
+  margin-top: 15px;
+  color: #fff;
+  background-color: darkgreen;
+  border: 1px solid darkgreen;
+}
+
+
+
 
