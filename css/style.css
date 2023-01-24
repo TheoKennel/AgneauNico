@@ -439,7 +439,32 @@ hr {
   #Accueil .left h4 {
     font-size: 15px;
   }
-
+  #Tarifs .produits .prod {
+    width: 100%;
+    max-width: 260px;
+  }
+  #Agneau {
+    padding: 10px;
+    height: auto;
+  }
+  #Agneau .agneau {
+    flex-direction: column;
+    height: fit-content;
+  }
+  #Agneau .left , #Agneau .right {
+    width: 100%;
+  }
+  #Agneau .left {
+    height: fit-content;
+  }
+  #Agneau .left img {
+    width: 50%;
+  }
+  #Agneau .right {
+    text-align: center;
+  }
 }
+
+
 
 
