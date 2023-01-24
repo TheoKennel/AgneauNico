@@ -460,9 +460,27 @@ hr {
   #Agneau .left img {
     width: 50%;
   }
+  #contact {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+  }
   #Agneau .right {
     text-align: center;
+    padding: 20px;
   }
+  .avis_section {
+    height: auto;
+  }
+  .avis_section .commentaire .commentaires {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .services_list .service {
+    padding: 0 50px;
+  }
+
+
 }
 
 
