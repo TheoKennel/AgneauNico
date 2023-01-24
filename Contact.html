@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<header id="mainHeader">
+<header>
   <img id="LogoCorbacks" src="img/corbackNico.png" width="90" alt="Logo Corbacks">
     <div class="logo">
     <p><span>La Ferme des</span> Corbacks</p>
@@ -119,11 +119,10 @@
 </footer>
 
 <script>
-  let small_menu = document.querySelectorAll('.toggle_menu');
-  let menu = document.querySelectorAll('.menu');
+  var small_menu = document.querySelector('.toggle_menu')
+  var menu = document.querySelector('.menu')
 
   small_menu.onclick = function(){
-      alert('click')
     small_menu.classList.toggle('active');
     menu.classList.toggle('responsive');
   }

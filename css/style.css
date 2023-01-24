@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,13 +10,16 @@
 section {
   margin-top: 50px;
 }
+
 body {
   position: relative;
 }
+
 html {
   scroll-behavior: smooth;
   font-size: 82.5%;
 }
+
 /* NAV BAR CSS */
 
 header {
@@ -29,7 +33,7 @@ header {
   top: 0;
   left: 0;
   background-color: rgba(255 255 255 /0.9);
-  box-shadow: 0 0 10px rgba(0, 0,0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
 
@@ -49,13 +53,16 @@ header {
   font-weight: 500;
   font-size: 30px;
 }
+
 .logo span {
-  color: #222222 ;
+  color: #222222;
 }
+
 .menu li {
   margin: 0 10px;
   list-style: none;
 }
+
 .menu li a {
   left: 180px;
   font-size: 18px;
@@ -63,6 +70,7 @@ header {
   color: #999;
   position: relative;
 }
+
 .menu li a::before {
   position: absolute;
   top: -5px;
@@ -78,6 +86,7 @@ header {
 .menu li a:hover::before {
   width: 100%;
 }
+
 .menu li a::after {
   position: absolute;
   bottom: -5px;
@@ -97,13 +106,14 @@ header {
 .menu li a:hover {
   color: black;
 }
+
 .menu .bouton {
   top: -3px;
   font-size: 22px;
   text-align: center;
-  color: darkgreen;
-  ;
+  color: darkgreen;;
 }
+
 /* Accueil page CSS */
 #Accueil {
   margin-top: 50px;
@@ -114,6 +124,7 @@ header {
   height: calc(100vh - 50px);
   justify-content: space-between;
 }
+
 #Accueil .left {
   width: 40%;
   height: 100%;
@@ -121,14 +132,17 @@ header {
   flex-direction: column;
   justify-content: center;
 }
+
 #Accueil .left h1 {
   font-size: 30px;
   color: darkgreen;
 }
+
 #Accueil .left p {
   font-size: 12px;
   color: #999;
 }
+
 #Accueil .right {
   width: 50%;
   height: 100%;
@@ -136,16 +150,22 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 #Accueil .right img {
   width: 100%;
   animation: animate 1.5s linear;
   transition: 0.5s;
 }
+
 /* animation image */
 
 @keyframes animate {
-  0%{opacity: 0;}
-  100%{opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Page Tarifs */
@@ -157,15 +177,17 @@ header {
   height: calc(20vh - 70px);
   justify-content: space-between;
   background-color: #cccccc;
-  box-shadow: 0 0 10px rgba(0, 0,0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 #Tarifs .viande {
   display: flex;
   font-weight: normal;
   font-size: 30px;
-  color: rgba(46,46,46,0.8);
+  color: rgba(46, 46, 46, 0.8);
   margin-left: 10%;
 }
+
 .produits {
   display: flex;
   flex-wrap: wrap;
@@ -175,6 +197,7 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
 .produits .prod {
   height: 280px;
   width: 30%;
@@ -187,17 +210,20 @@ header {
   border-radius: 6px;
   margin-bottom: 35px;
   transition: 0.5s;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .produits .prod img {
   width: 180px;
   height: 170px;
   margin-bottom: 15px;
 }
-.produits .prod p{
+
+.produits .prod p {
   text-align: center;
   font-size: 18px;
 }
+
 .produits .prod a {
   margin-top: 10px;
   font-size: 14px;
@@ -212,6 +238,7 @@ header {
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: darkgreen;
 }
@@ -225,6 +252,7 @@ header {
   padding: 50px 10%;
   width: 100%;
 }
+
 .agneau {
   display: flex;
   align-items: center;
@@ -232,6 +260,7 @@ header {
   justify-content: space-between;
   height: 70vh;
 }
+
 .agneau .left {
   width: 40%;
   display: flex;
@@ -239,28 +268,34 @@ header {
   justify-content: center;
   height: 100vh;
 }
+
 .agneau .left img {
   width: 90%;
 }
+
 .agneau .right {
   width: 60%;
 }
+
 .agneau .right h3 {
   font-size: 35px;
   color: #273e60;
   margin: 10px 0;
 }
+
 .agneau .right p {
   font-size: 14px;
   color: #999
 }
+
 .agneau .right button {
   margin: 20px;
   padding: 5px 60px;
   background-color: darkgreen;
   border: 0;
 }
-.agneau .right button a{
+
+.agneau .right button a {
   color: #fff;
   text-decoration: 0;
   font-weight: bolder;
@@ -282,28 +317,33 @@ header {
   width: 100%;
   flex-wrap: wrap;
 }
+
 .commentaire .commentaires div {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
+
 .commentaire .commentaires div img {
   width: 45px;
   height: 45px;
   border: 2px solid darkgreen;
   border-radius: 50%;
 }
+
 .commentaire .commentaires {
   width: 30%;
   border: 1px solid #ccc;
   border-radius: 6px;
-  padding:20px;
+  padding: 20px;
 }
+
 .commentaire .commentaires div h4 {
   margin-left: 15px;
   font-size: 14px;
   color: darkgreen;
 }
+
 .commentaire .commentaires p {
   font-size: 13px;
   color: #999;
@@ -322,12 +362,13 @@ header {
 
 #contact form {
   display: flex;
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
   padding: 25px;
   border: 6px;
   flex-direction: column;
   width: 450px;
 }
+
 #contact form label {
   margin-bottom: 8px;
   font-size: 14px;
@@ -336,7 +377,7 @@ header {
 #contact form input {
   margin-bottom: 10px;
   border: 1px solid transparent;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   padding: 5px;
 }
 
@@ -360,7 +401,7 @@ header {
 /* Footer Section */
 
 footer {
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 footer .services_list {
@@ -371,7 +412,7 @@ footer .services_list {
   flex-wrap: wrap;
 }
 
-.service img{
+.service img {
   width: 40px;
   background-color: darkgreen;
   padding: 10px;
@@ -387,7 +428,7 @@ footer .services_list {
   margin: 25px auto;
 }
 
-.service p{
+.service p {
   color: #333;
 }
 
@@ -414,96 +455,117 @@ hr {
   header .menu {
     display: none;
   }
+
   header {
     padding: 0 20px;
   }
+
   #Accueil {
     flex-direction: column;
     padding: 12px;
     height: fit-content;
   }
-  #Accueil .left , #Accueil .right {
+
+  #Accueil .left, #Accueil .right {
     width: 100%;
     padding: 0;
   }
+
   #Accueil .left {
     margin: 100px 0;
   }
+
   #Accueil .left h1 {
     font-size: 20px;
   }
+
   #Accueil .left h1 {
     font-size: 20px;
     margin-bottom: 15px;
   }
+
   #Accueil .left h4 {
     font-size: 15px;
   }
+
   #Tarifs .produits .prod {
     width: 100%;
     max-width: 260px;
   }
+
   #Agneau {
     padding: 10px;
     height: auto;
   }
+
   #Agneau .agneau {
     flex-direction: column;
     height: fit-content;
   }
-  #Agneau .left , #Agneau .right {
+
+  #Agneau .left, #Agneau .right {
     width: 100%;
   }
+
   #Agneau .left {
     height: fit-content;
   }
+
   #Agneau .left img {
     width: 50%;
   }
+
   #contact {
     width: 100%;
     padding: 10px;
     height: auto;
   }
+
   #Agneau .right {
     text-align: center;
     padding: 20px;
   }
+
   .avis_section {
     height: auto;
   }
+
   .avis_section .commentaire .commentaires {
     width: 100%;
     margin-top: 20px;
   }
+
   .services_list .service {
     padding: 0 50px;
   }
-.toggle_menu {
-  display: flex;
-  height: 40px;
-  width: 40px;
+
+  .toggle_menu {
     display: flex;
+    height: 40px;
+    width: 40px;
     align-items: center;
     justify-content: center;
     position: relative;
     cursor: pointer;
-}
-.toggle_menu::before {
-  position: absolute;
-  content:"";
-  height: 3px;
-  width: 28px;
-  background-color: darkgreen;
-  border-radius: 6px;
-  box-shadow: 0 10px 0 darkgreen;
-  transform: translateY(-10px);
-  transition: 0.5s;
-}
-.toggle_menu.active::before {
-  transform: translateY(0) rotate(135deg);
-  box-shadow: 0 0 0 darkgreen;
-}
+  }
+
+  .toggle_menu::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 28px;
+    background-color: darkgreen;
+    border-radius: 6px;
+    box-shadow: 0 10px 0 darkgreen;
+    transform: translateY(-10px);
+    transition: 0.5s;
+  }
+
+  .toggle_menu.active::before {
+    transform: translateY(0) rotate(135deg);
+    box-shadow: 0 0 0 darkgreen;
+  }
+
   .toggle_menu::after {
     position: absolute;
     content: "";
@@ -514,25 +576,28 @@ hr {
     transform: translateY(10px);
     transition: 0.5s;
   }
-.toggle_menu.active::after {
-  transform: translateY(0) rotate(-135deg);
-}
-header .menu.responsive {
-  display: flex;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  flex-direction: column;
-}
-header .menu.responsive li {
-  max-width: 15px 0;
-}
+
+  .toggle_menu.active::after {
+    transform: translateY(0) rotate(-135deg);
+  }
+
+  header .menu.responsive {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: -50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+  }
+
+  header .menu.responsive li {
+    max-width: 15px 0;
+  }
+
 }
 
 
