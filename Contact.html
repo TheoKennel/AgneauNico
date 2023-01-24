@@ -4,8 +4,6 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style.css">
   <title>Title</title>
-  <script src="menu.js"></script>
-  <script src="jquery-3.5.1.min.js"></script>
 </head>
 <body>
 
@@ -21,6 +19,9 @@
     <li><a href="Commander.html">Commander</a></li>
     <li><a class="bouton" href="Contact.html">Contact</a></li>
   </ul>
+
+<!-- menu responsive -->
+  <div class="toggle_menu"></div>
 </header>
 <!--section Contact -->
 <section id="contact">
@@ -116,5 +117,16 @@
   </div>
   <p class="footer_text">Réalisé par <span>Théo Kennel</span> | Tous les droits sont réservés.</p>
 </footer>
+
+<script>
+  let small_menu = document.querySelectorAll('.toggle_menu');
+  let menu = document.querySelectorAll('.menu');
+
+  small_menu.onclick = function(){
+      alert('click')
+    small_menu.classList.toggle('active');
+    menu.classList.toggle('responsive');
+  }
+</script>
 </body>
 </html>

@@ -479,8 +479,60 @@ hr {
   .services_list .service {
     padding: 0 50px;
   }
-
-
+.toggle_menu {
+  display: flex;
+  height: 40px;
+  width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+.toggle_menu::before {
+  position: absolute;
+  content:"";
+  height: 3px;
+  width: 28px;
+  background-color: darkgreen;
+  border-radius: 6px;
+  box-shadow: 0 10px 0 darkgreen;
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+.toggle_menu.active::before {
+  transform: translateY(0) rotate(135deg);
+  box-shadow: 0 0 0 darkgreen;
+}
+  .toggle_menu::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 28px;
+    background-color: darkgreen;
+    border-radius: 6px;
+    transform: translateY(10px);
+    transition: 0.5s;
+  }
+.toggle_menu.active::after {
+  transform: translateY(0) rotate(-135deg);
+}
+header .menu.responsive {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  flex-direction: column;
+}
+header .menu.responsive li {
+  max-width: 15px 0;
+}
 }
 
 
