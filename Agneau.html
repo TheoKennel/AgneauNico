@@ -15,9 +15,11 @@
     <li><a href="ProjetNico.html">Accueil</a></li>
     <li><a href="Agneau.html">Les Agneaux</a></li>
     <li><a href="Tarifs.html">Les Tarifs</a></li>
-    <li><a href="Commander.html">Commander</a></li>
     <li><a class="bouton" href="Contact.html">Contact</a></li>
   </ul>
+  <!-- menu responsive -->
+  <div class="toggle_menu"></div>
+
 </header>
 <section id="Agneau">
   <div class="agneau">
@@ -73,6 +75,14 @@
   </div>
   <p class="footer_text">Réalisé par <span>Théo Kennel</span> | Tous les droits sont réservés.</p>
 </footer>
+<script>
+  const small_menu = document.querySelector('.toggle_menu');
+  const menu = document.querySelector('.menu');
 
+  small_menu.onclick = function(){
+    small_menu.classList.toggle('active');
+    menu.classList.toggle('responsive');
+  }
+</script>
 </body>
 </html>

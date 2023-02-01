@@ -15,9 +15,10 @@
     <li><a href="ProjetNico.html">Accueil</a></li>
     <li><a href="Agneau.html">Les Agneaux</a></li>
     <li><a href="Tarifs.html">Les Tarifs</a></li>
-    <li><a href="Commander.html">Commander</a></li>
     <li><a class="bouton" href="Contact.html">Contact</a></li>
   </ul>
+  <!-- menu responsive -->
+  <div class="toggle_menu"></div>
 </header>
 <section id="Tarifs">
   <h2 class="viande">Viande d'Agneau</h2>
@@ -60,12 +61,6 @@
       <h3>199.99€</h3>
       <a href="#">Réserver</a>
     </div>
-    <div class="prod" id="rouelle">
-      <img src="img/rouelle_agneau.jpg">
-      <p>Agneau de lait 1/2 carcasse découpé</p>
-      <h3>199.99€</h3>
-      <a href="#">Réserver</a>
-    </div>
   </div>
 </section>
 
@@ -100,5 +95,15 @@
   </div>
   <p class="footer_text">Réalisé par <span>Théo Kennel</span> | Tous les droits sont réservés.</p>
 </footer>
+<script>
+  const small_menu = document.querySelector('.toggle_menu');
+  const menu = document.querySelector('.menu');
+
+  small_menu.onclick = function(){
+    small_menu.classList.toggle('active');
+    menu.classList.toggle('responsive');
+  }
+</script>
 </body>
+
 </html>

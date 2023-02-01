@@ -352,12 +352,10 @@ header {
 /* Section Contact */
 
 #contact {
-  margin-top: 120px;
   display: flex;
-  margin-right: 70%;
+  justify-content: space-between;
   align-items: center;
-  justify-content: left;
-  flex-direction: column;
+  margin-top: 120px;
 }
 
 #contact form {
@@ -365,25 +363,32 @@ header {
   background-color: rgba(0, 0, 0, 0.05);
   padding: 25px;
   border: 6px;
-  flex-direction: column;
   width: 450px;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+#contact .plan_gps {
+  margin-right: 100px;
+  width: 800px;
 }
 
 #contact form label {
-  margin-bottom: 8px;
   font-size: 14px;
+  margin-bottom: 8px;
 }
 
 #contact form input {
-  margin-bottom: 10px;
   border: 1px solid transparent;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 10px;
   padding: 5px;
 }
 
 #contact form #message {
-  height: 100px;
   border: 1px solid transparent;
+  height: 100px;
   padding: 15px 0px 0px 10px;
 }
 
@@ -392,11 +397,12 @@ header {
 }
 
 #contact form input[type="submit"] {
-  margin-top: 15px;
-  color: #fff;
   background-color: darkgreen;
   border: 1px solid darkgreen;
+  color: #fff;
+  margin-top: 15px;
 }
+
 
 /* Footer Section */
 

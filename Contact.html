@@ -16,7 +16,6 @@
     <li><a href="ProjetNico.html">Accueil</a></li>
     <li><a href="Agneau.html">Les Agneaux</a></li>
     <li><a href="Tarifs.html">Les Tarifs</a></li>
-    <li><a href="Commander.html">Commander</a></li>
     <li><a class="bouton" href="Contact.html">Contact</a></li>
   </ul>
 
@@ -42,7 +41,9 @@
     <textarea id="message" name="message" placeholder="Bonjour, je souhaite vous contactez car ..." required=""></textarea>
     <input type="submit" value="Faire la Réservation">
   </form>
+  <img src="img/point_gps_nico.png" alt="" class="plan_gps">
 </section>
+
 
 
 <!-- Section Avis Client -->
@@ -119,8 +120,8 @@
 </footer>
 
 <script>
-  var small_menu = document.querySelector('.toggle_menu')
-  var menu = document.querySelector('.menu')
+  const small_menu = document.querySelector('.toggle_menu');
+  const menu = document.querySelector('.menu');
 
   small_menu.onclick = function(){
     small_menu.classList.toggle('active');
