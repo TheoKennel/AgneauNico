@@ -39,6 +39,7 @@ header {
 
 .menu {
   display: flex;
+  margin-right: -40%;
 }
 
 #LogoCorbacks {
@@ -196,6 +197,7 @@ header {
   align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 5rem;
 }
 
 .produits .prod {
@@ -527,6 +529,7 @@ hr {
     height: auto;
   }
 
+
   #Agneau .right {
     text-align: center;
     padding: 20px;
@@ -602,6 +605,14 @@ hr {
 
   header .menu.responsive li {
     max-width: 15px 0;
+  }
+
+  #LogoCorbacks {
+    display: none;
+  }
+
+  .plan_gps {
+    display: none;
   }
 
 }
